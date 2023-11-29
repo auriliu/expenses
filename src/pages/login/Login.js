@@ -24,6 +24,7 @@ function Login() {
   return (
     <form className={styles["login-form"]} onSubmit={handleSubmit}>
       <h2>login</h2>
+      <h4>demo acc: mario@mario.com // mario123</h4>
       <label>
         <span>email:</span>
         <input
