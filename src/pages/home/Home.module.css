@@ -12,9 +12,10 @@
 }
 .sidebar form {
   padding: 20px;
-  background: #1f9751;
+  background: #243837;
   border-radius: 10px;
 }
+
 .sidebar input,
 .sidebar select {
   display: block;
@@ -42,9 +43,14 @@
   cursor: pointer;
   display: block;
   width: 100%;
+  transition: all 0.3s;
 }
+.sidebar button:hover {
+  background-color: #fe7833;
+}
+
 .sidebar h3 {
-  color: #1f9751;
+  color: #fe7833;
   margin-bottom: 20px;
 }
 .sidebar aside {
@@ -65,7 +71,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  border-left: 4px solid #1f9751;
+  border-left: 4px solid #243837;
 }
 .transactions .name {
   color: #777;
@@ -78,6 +84,7 @@
   font-weight: bold;
   font-size: 1.6em;
 }
+
 .transactions button {
   position: absolute;
   top: 0;
@@ -90,4 +97,11 @@
   line-height: 0;
   font-size: 0.9em;
   cursor: pointer;
+}
+.delete {
+  transition: all 0.3s;
+}
+
+.delete:hover {
+  background-color: #fe7833;
 }

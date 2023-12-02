@@ -24,9 +24,9 @@ function Login() {
   return (
     <form className={styles["login-form"]} onSubmit={handleSubmit}>
       <h2>login</h2>
-      <h4>demo acc: mario@mario.com // mario123</h4>
       <label>
-        <span>email:</span>
+        <span>email: mario@mario.com</span>
+
         <input
           type="email"
           onChange={(e) => setEmail(e.target.value)}
@@ -34,7 +34,7 @@ function Login() {
         />
       </label>
       <label>
-        <span>password:</span>
+        <span>password: mario123</span>
         <input
           type="password"
           onChange={(e) => setPassword(e.target.value)}

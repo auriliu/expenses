@@ -26,8 +26,13 @@
   margin-left: 16px;
 }
 .navbar a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar a:hover {
+  color: #fe7833;
 }
 
 /* .circle {
