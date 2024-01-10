@@ -25,7 +25,7 @@ export default function Navbar() {
         <ul>
           <li className={styles.title}>
             <Link to="/">
-              <img src={logo} alt="" className="logo" />
+              <img src={logo} alt="" />
             </Link>
           </li>
           {/* user is NOT logged in */}

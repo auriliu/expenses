@@ -11,9 +11,6 @@
   max-width: 960px;
   align-items: center;
 }
-/* .navbar li .btn {
-  margin-left: 10px;
-} */
 
 .title {
   margin-right: auto;
@@ -34,11 +31,3 @@
 .navbar a:hover {
   color: #fe7833;
 }
-
-/* .circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid black;
-  cursor: pointer;
-} */
